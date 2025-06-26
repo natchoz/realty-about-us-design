@@ -22,7 +22,7 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center">
-              <div className="w-10 h-10 bg-gradient-to-r from-gold-500 to-gold-600 rounded-lg flex items-center justify-center">
+              <div className="w-10 h-10 bg-gradient-to-r from-teal-500 to-blue-600 rounded-lg flex items-center justify-center">
                 <Building className="h-6 w-6 text-white" />
               </div>
               <span className="ml-3 text-2xl font-bold text-gray-900">K Plus Agency</span>
@@ -35,13 +35,13 @@ const Navbar = () => {
               <Link
                 key={item.name}
                 to={item.href}
-                className="text-gray-700 hover:text-gold-600 px-3 py-2 text-sm font-medium transition-colors duration-200 flex items-center gap-2"
+                className="text-gray-700 hover:text-teal-600 px-3 py-2 text-sm font-medium transition-colors duration-200 flex items-center gap-2"
               >
                 <item.icon className="h-4 w-4" />
                 {item.name}
               </Link>
             ))}
-            <Button className="bg-gold-600 hover:bg-gold-700 text-white">
+            <Button className="bg-gradient-to-r from-teal-600 to-blue-600 hover:from-teal-700 hover:to-blue-700 text-white">
               ปรึกษาฟรี
             </Button>
           </div>
@@ -50,7 +50,7 @@ const Navbar = () => {
           <div className="md:hidden flex items-center">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-700 hover:text-gold-600 p-2"
+              className="text-gray-700 hover:text-teal-600 p-2"
             >
               {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>
@@ -65,7 +65,7 @@ const Navbar = () => {
                 <Link
                   key={item.name}
                   to={item.href}
-                  className="text-gray-700 hover:text-gold-600 block px-3 py-2 text-base font-medium flex items-center gap-2"
+                  className="text-gray-700 hover:text-teal-600 block px-3 py-2 text-base font-medium flex items-center gap-2"
                   onClick={() => setIsOpen(false)}
                 >
                   <item.icon className="h-4 w-4" />
@@ -73,7 +73,7 @@ const Navbar = () => {
                 </Link>
               ))}
               <div className="px-3 py-2">
-                <Button className="w-full bg-gold-600 hover:bg-gold-700 text-white">
+                <Button className="w-full bg-gradient-to-r from-teal-600 to-blue-600 hover:from-teal-700 hover:to-blue-700 text-white">
                   ปรึกษาฟรี
                 </Button>
               </div>
