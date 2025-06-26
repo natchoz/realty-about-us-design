@@ -4,7 +4,7 @@ import { Phone, MessageCircle, Mail, Clock } from 'lucide-react';
 
 const ServicesCTA = () => {
   return (
-    <section className="py-20 bg-gradient-to-r from-gold-600 to-gold-700">
+    <section className="py-20 bg-gradient-to-r from-teal-600 to-blue-700">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center text-white">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
@@ -29,7 +29,7 @@ const ServicesCTA = () => {
                 <MessageCircle className="h-8 w-8 text-white" />
               </div>
               <h3 className="text-lg font-semibold mb-2">Line</h3>
-              <p className="opacity-90">@primeestate</p>
+              <p className="opacity-90">@kplusagency</p>
             </div>
 
             <div className="flex flex-col items-center">
@@ -37,14 +37,14 @@ const ServicesCTA = () => {
                 <Mail className="h-8 w-8 text-white" />
               </div>
               <h3 className="text-lg font-semibold mb-2">อีเมล</h3>
-              <p className="opacity-90">info@primeestate.co.th</p>
+              <p className="opacity-90">info@kplusagency.co.th</p>
             </div>
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
             <Button 
               size="lg" 
-              className="bg-white text-gold-600 hover:bg-gray-100 font-semibold px-8"
+              className="bg-white text-teal-600 hover:bg-gray-100 font-semibold px-8"
             >
               <Phone className="mr-2 h-5 w-5" />
               ปรึกษาฟรี
@@ -52,7 +52,7 @@ const ServicesCTA = () => {
             <Button 
               size="lg" 
               variant="outline" 
-              className="border-white text-white hover:bg-white hover:text-gold-600 font-semibold px-8"
+              className="border-white text-white hover:bg-white hover:text-teal-600 font-semibold px-8"
             >
               <MessageCircle className="mr-2 h-5 w-5" />
               แชท Line
