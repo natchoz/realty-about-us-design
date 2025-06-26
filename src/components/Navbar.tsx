@@ -25,7 +25,7 @@ const Navbar = () => {
               <div className="w-10 h-10 bg-gradient-to-r from-gold-500 to-gold-600 rounded-lg flex items-center justify-center">
                 <Building className="h-6 w-6 text-white" />
               </div>
-              <span className="ml-3 text-2xl font-bold text-gray-900">Prime Estate</span>
+              <span className="ml-3 text-2xl font-bold text-gray-900">K Plus Agency</span>
             </Link>
           </div>
 

@@ -11,22 +11,23 @@ const Footer = () => {
               <div className="w-10 h-10 bg-gradient-to-r from-gold-500 to-gold-600 rounded-lg flex items-center justify-center">
                 <Building className="h-6 w-6 text-white" />
               </div>
-              <span className="ml-3 text-2xl font-bold">Prime Estate</span>
+              <span className="ml-3 text-xl font-bold">K Plus Agency</span>
             </div>
             <p className="text-gray-300 leading-relaxed mb-6">
-              ผู้นำด้านอสังหาริมทรัพย์ที่มุ่งมั่นสร้างสรรค์โครงการคุณภาพ 
-              เพื่อตอบสนองทุกความต้องการของคุณ
+              บริษัทตัวแทนนายหน้าอสังหาริมทรัพย์ที่เชี่ยวชาญด้านการซื้อ ขาย เช่า และลงทุนอสังหาริมทรัพย์ 
+              ด้วยบริการที่มืออาชีพ โปร่งใส และตรงไปตรงมา
             </p>
           </div>
 
           <div>
             <h4 className="text-xl font-bold mb-6">บริการของเรา</h4>
             <ul className="space-y-3 text-gray-300">
-              <li><a href="#" className="hover:text-gold-400 transition-colors">บ้านเดี่ยว</a></li>
-              <li><a href="#" className="hover:text-gold-400 transition-colors">ทาวน์เฮ้าส์</a></li>
-              <li><a href="#" className="hover:text-gold-400 transition-colors">คอนโดมิเนียม</a></li>
-              <li><a href="#" className="hover:text-gold-400 transition-colors">อาคารพาณิชย์</a></li>
-              <li><a href="#" className="hover:text-gold-400 transition-colors">ที่ดิน</a></li>
+              <li><a href="#" className="hover:text-gold-400 transition-colors">ตัวแทนขายและเช่า</a></li>
+              <li><a href="#" className="hover:text-gold-400 transition-colors">ที่ปรึกษาการตลาด</a></li>
+              <li><a href="#" className="hover:text-gold-400 transition-colors">ที่ปรึกษาการลงทุน</a></li>
+              <li><a href="#" className="hover:text-gold-400 transition-colors">เฟอร์นิเจอร์และตกแต่ง</a></li>
+              <li><a href="#" className="hover:text-gold-400 transition-colors">ออกแบบภายใน</a></li>
+              <li><a href="#" className="hover:text-gold-400 transition-colors">รับเหมาก่อสร้าง</a></li>
             </ul>
           </div>
 
@@ -34,10 +35,10 @@ const Footer = () => {
             <h4 className="text-xl font-bold mb-6">ข้อมูลบริษัท</h4>
             <ul className="space-y-3 text-gray-300">
               <li><a href="#" className="hover:text-gold-400 transition-colors">เกี่ยวกับเรา</a></li>
-              <li><a href="#" className="hover:text-gold-400 transition-colors">ข่าวสาร</a></li>
+              <li><a href="#" className="hover:text-gold-400 transition-colors">วิสัยทัศน์</a></li>
               <li><a href="#" className="hover:text-gold-400 transition-colors">ร่วมงานกับเรา</a></li>
-              <li><a href="#" className="hover:text-gold-400 transition-colors">นักลงทุนสัมพันธ์</a></li>
-              <li><a href="#" className="hover:text-gold-400 transition-colors">CSR</a></li>
+              <li><a href="#" className="hover:text-gold-400 transition-colors">พันธมิตรทางธุรกิจ</a></li>
+              <li><a href="#" className="hover:text-gold-400 transition-colors">ข่าวสาร</a></li>
             </ul>
           </div>
 
@@ -50,7 +51,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-gold-500" />
-                <span>info@primeestate.co.th</span>
+                <span>info@kplusagency.co.th</span>
               </div>
               <div className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-gold-500 mt-1" />
@@ -63,7 +64,7 @@ const Footer = () => {
         <div className="border-t border-gray-700 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400">
-              © 2024 Prime Estate Co., Ltd. สงวนลิขสิทธิ์ทุกประการ
+              © 2024 K Plus Agency & Development Co., Ltd. สงวนลิขสิทธิ์ทุกประการ
             </p>
             <div className="flex gap-6 text-gray-400">
               <a href="#" className="hover:text-gold-400 transition-colors">นโยบายความเป็นส่วนตัว</a>
