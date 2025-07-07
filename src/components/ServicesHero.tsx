@@ -1,14 +1,31 @@
 
-import { Building2, ArrowDown } from 'lucide-react';
+import { ArrowDown } from 'lucide-react';
+import realEstateKeys from '@/assets/real-estate-keys.jpg';
+import realEstatePlanning from '@/assets/real-estate-planning.jpg';
 
 const ServicesHero = () => {
   return (
     <section className="relative bg-gradient-to-br from-teal-50 via-blue-50 to-amber-50 py-20 lg:py-32">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <div className="flex justify-center mb-6">
-            <div className="w-16 h-16 bg-gradient-to-r from-teal-600 to-blue-600 rounded-2xl flex items-center justify-center">
-              <Building2 className="h-8 w-8 text-white" />
+          <div className="flex justify-center mb-8">
+            <div className="flex gap-4">
+              <div className="relative w-20 h-20 rounded-2xl overflow-hidden shadow-2xl transform rotate-3 hover:rotate-0 transition-transform duration-300">
+                <img 
+                  src={realEstateKeys} 
+                  alt="Real Estate Keys" 
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-teal-600/20 to-transparent"></div>
+              </div>
+              <div className="relative w-20 h-20 rounded-2xl overflow-hidden shadow-2xl transform -rotate-3 hover:rotate-0 transition-transform duration-300">
+                <img 
+                  src={realEstatePlanning} 
+                  alt="Real Estate Planning" 
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-blue-600/20 to-transparent"></div>
+              </div>
             </div>
           </div>
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
