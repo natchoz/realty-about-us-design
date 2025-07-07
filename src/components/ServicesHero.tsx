@@ -9,22 +9,20 @@ const ServicesHero = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <div className="flex justify-center mb-8">
-            <div className="flex gap-4">
-              <div className="relative w-20 h-20 rounded-2xl overflow-hidden shadow-2xl transform rotate-3 hover:rotate-0 transition-transform duration-300">
+            <div className="flex gap-6">
+              <div className="relative w-32 h-32 rounded-3xl overflow-hidden shadow-2xl transform rotate-2 hover:rotate-0 transition-all duration-500 hover:scale-105">
                 <img 
                   src={realEstateKeys} 
                   alt="Real Estate Keys" 
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-teal-600/20 to-transparent"></div>
               </div>
-              <div className="relative w-20 h-20 rounded-2xl overflow-hidden shadow-2xl transform -rotate-3 hover:rotate-0 transition-transform duration-300">
+              <div className="relative w-32 h-32 rounded-3xl overflow-hidden shadow-2xl transform -rotate-2 hover:rotate-0 transition-all duration-500 hover:scale-105">
                 <img 
                   src={realEstatePlanning} 
                   alt="Real Estate Planning" 
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-blue-600/20 to-transparent"></div>
               </div>
             </div>
           </div>
